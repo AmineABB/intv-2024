@@ -1,0 +1,8 @@
+.container {
+  text-align: left;
+  font-weight: 500;
+  width: var(--max-width);
+  border-bottom: 1px solid #746f6f;
+  padding: 1rem 0;
+  color: #a6a6a6;
+}

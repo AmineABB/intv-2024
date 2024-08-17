@@ -1,0 +1,29 @@
+.genres_wrapper {
+  position: relative;
+  display: flex;
+  width: min(20rem, 90vw);
+  background: url('/images/arrow_down.svg') no-repeat 95% center;
+  background-size: 2rem;
+  border-radius: 50px;
+  overflow: hidden;
+  border: 1px solid #5b5a5a;
+}
+
+.genres_wrapper select {
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  color: inherit;
+  box-shadow: none;
+
+  flex: 1;
+  padding: 1em;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .genres_wrapper {
+    width: 30rem;
+  }
+}

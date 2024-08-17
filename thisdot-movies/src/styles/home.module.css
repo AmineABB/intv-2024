@@ -1,0 +1,45 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  min-height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(25%, auto));
+  max-width: 100%;
+  width: var(--max-width);
+}
+
+.movies_filter {
+  width: var(--max-width);
+}
+
+.notFound {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-top: 5rem;
+  width: inherit;
+}
+
+@media (max-width: 700px) {
+  .content {
+    padding: 4rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 120px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+}

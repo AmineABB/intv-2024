@@ -1,0 +1,1 @@
+export { MovieCount } from './MoviesCount'

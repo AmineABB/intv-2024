@@ -1,0 +1,67 @@
+.container {
+  padding: 1rem;
+  margin: 6rem auto 0;
+  width: var(--max-width);
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+}
+
+.posterContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.poster {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.details {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.rating,
+.duration,
+.releaseDate,
+.summary,
+.metaInfo {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.metaInfo p {
+  margin: 4px 0;
+}
+
+.ratingValue {
+  font-weight: bold;
+}
+
+.screenReader {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

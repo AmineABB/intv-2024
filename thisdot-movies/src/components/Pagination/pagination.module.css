@@ -1,0 +1,41 @@
+.pagination_wrapper {
+  display: flex;
+  margin-top: 5rem;
+}
+
+.pagination_item {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 700;
+  overflow: hidden;
+  text-transform: uppercase;
+  margin-right: .6rem;
+  background: none;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  transition: all .3s ease-in-out;
+}
+
+.pagination_item:hover {
+  transform: scale(1.5);
+}
+
+.pagination_item__active {
+  background-color: #1065d0;
+  border-width: 3px;
+}
+
+.prev_button {
+  margin-right: .6rem;
+}
+
+.prev_button,
+.next_button {
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}

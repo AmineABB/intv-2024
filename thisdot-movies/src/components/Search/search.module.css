@@ -1,0 +1,26 @@
+.search__container {
+  margin-right: 3rem;
+  width: 30rem;
+}
+
+.search__field {
+  width: 100%;
+  padding: 0.7rem 1.6rem;
+  font-size: 1.2rem;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 50px;
+  border: 1px solid #5b5a5a;
+  transition: box-shadow .4s ease-in-out;
+}
+
+.search__field:hover {
+  box-shadow: 0 0 23px 10px rgb(249 246 246 / 20%);
+}
+
+@media (max-width: 700px) {
+  .search__container {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}

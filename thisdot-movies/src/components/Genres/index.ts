@@ -1,0 +1,1 @@
+export { Genres, type GenresProps } from './Genres';
